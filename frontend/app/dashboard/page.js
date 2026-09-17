@@ -21,7 +21,7 @@ export default function DashboardPage() {
         const getUser = async () => {
             try {
                 const response = await fetch(
-                    "http://localhost:5000/api/auth/me",
+                    "https://fledgling-pricey-fox.abasthan.app/api/auth/me",
                     {
                         method: "GET",
                         headers: {
